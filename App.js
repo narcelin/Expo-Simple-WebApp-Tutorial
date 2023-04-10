@@ -22,7 +22,6 @@ export default function App() {
 
     if (!result.canceled) {
       setSelectedImage(result.assets[0].uri);
-      console.log(result);
     } else {
       alert("You did not select any image.");
     }
